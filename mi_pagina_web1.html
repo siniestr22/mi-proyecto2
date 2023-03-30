@@ -6,5 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo_pagina_web/estilo_padina.css">
     <title>Mi pagina </title>
+    </head>
+<body>
+    <header>
+        
+        <div class="logo1">
+            <img src="mi_proyecto_img/logo.png" alt="logo">
+        </div>
+        <div class="menu1">
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Contenido</a>
+                <a href="#">Pagos</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+        <div class="titulo">
+            <h3>¿Nesecitas dineros extra?</h3>
+            <h1>TvPrimer</h1>
+            <p>Te ofrece el sistema del futuro con; +2,000 Canales, +8,000 Pel&iacute;culas y + 1,000 Series con los precios mas bajos del mercado.</p>
+        </div>
+        <div class="contenedor">
+            <div class="contenido">
+                <div class="boton1">
+                    <p><a href="#">Prueba del servicio</a></p>
+                </div>
+                <div class="boton2">
+                    <p><a href="#">pago con tarjeta o paypal</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="seccion1">
+        <nav class="menu2">
+            <h3><a href=".//estilo_pagina_web/contenido2.html" target="contenido">Demo</a></h3>
+            <h3><a href=".//contenido3.html" target="contenido">Creditos</a></h3>
+            <h3><a href=".//contenido4.html" target="contenido">Pagos</a></h3>
+            <h3><a href="#">Nombre</a></h3>
+        </nav>
+        <iframe class="frame" src="contenido1.html" frameborder="0" name="contenido"></iframe>
+    </section>
+    <section class="formulario">
+        <h2>Programa una fecha para la Prueba</h2>
+        <form method="get" class="form1">
+            <label for="name">Nombre <span>*</span></label><br>
+            <input type="text" id="name" name="nombre" placeholder="Tu Nombre" class="esty" required><br>
+
+            <label for="apellido">Apellido <span>*</span></label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="esty" required><br>
+
+            <label for="email">Correo electronico <span>*</span></label><br>
+            <input type="email" name="email" id="email" placeholder="ejemplo; abc@email.com" required class="esty"><br>
+
+            <label>Indique su dispositivo:
+                <input list="aplicaciones" name="dispositivo" placeholder="dispositivo" class="esty" />
+            </label>
+            <datalist id="aplicaciones">
+                <option value="TvBox"></option>
+                <option value="Fire Stike"></option>
+                <option value="Samsung"></option>
+                <option value="LG"></option>
+                <option value="TCL no Play store"></option>
+                <option value="TCL con play store"></option>
+                <option value="Tecnomaster"></option>
+            </datalist>
+
+            <label for="fast">Velocidad de su internet <span>*</span></label><br>
+            <input type="radio" name="fast" id="fast" required value="3-6">
+            <label class="separar">3-6 Mega</label><br>
+            <input type="radio" name="fast" id="fast" required value="6-10">
+            <label class="separar">6-10 Mega</label><br>
+            <input type="radio" name="fast" id="fast" required value="10-20">
+            <label class="separar">10-20 Mega</label><br>
+
+            <label for="aplicacion">Aplicaci&oacute;n intalada <span>*</span></label><br>
+
+            <input type="checkbox" name="aplicacion" id="aplicacion" value="iptsmarters">
+            <label>Iptvsmarters</label><br>
+
+            <input type="checkbox" name="aplicacion" id="aplicacion" value="ibo_player">
+            <label>Ibo player</label><br>
+
+            <input type="checkbox" name="aplicacion" id="aplicacion" value="smartone">
+            <label>Smartone</label><br>
+
+            <input type="checkbox" name="aplicacion" id="aplicacion" value="no tengo">
+            <label>No tengo</label><br>
+
+            <input type="checkbox" name="aplicacion" id="aplicacion" value="otra">
+            <label>Otras</label><br>
+            <input type="text" name="app;" id="aplicacion" placeholder="Indique Cual;" class="esty"><br>
+
+            
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha" class="esty">
+
+            <label for="time">Hora de la Prueba</label><br>
+            <input type="time" name="time" id="time" class="esty"><br>
+            
+            <input type="submit" value="enviar" id="submit">
+            <input type="reset" value="reset" id="submit">
+
+        </form>
+    </section>
+    <section class="contenido1">
+        
+        <div class="video1">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/90Vgf4ip03I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video2">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/odtuaR8c3S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video3">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/w0jnKCsd1Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+    </section>
+    <h1>Pel&iacute;culas y series de todas las categor&iacute;as</h1>
+    <section class="pelicula">
+        <div><img src="..//imagenes_web2/pelicula002.jpg" alt="fotografia" title="fotografia" width="100%">
+        </div>
+        <div><img src="..//imagenes_web2/pelicula002.jpg" alt="fotografia" title="fotografia" width="100%"></div>
+        <div><img src="..//imagenes_web2/logo1.png" alt="fotografia" title="fotografia" width="40%"></div>
+        <div><img src="..//imagenes_web2/logo1.png" alt="fotografia" title="fotografia" width="40%"></div>
+        <div><img src="..//imagenes_web2/logo1.png" alt="fotografia" title="fotografia" width="40%"></div>
+        <div><img src="..//imagenes_web2/logo1.png" alt="fotografia" title="fotografia" width="40%"></div>
+    </section>
+    <footer>
+        <div class="foot position1">
+            <img src=".//imagenes_web2/logo1.png" alt="logo" title="TvPrimer">
+            <h3>Santo domingo</h3>
+            <h3>Republica Dominicana</h3>
+        </div>
+        <div class="foot position2">
+            <a href="#"><ion-icon class="face" name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon class="inst" name="logo-instagram"></ion-icon</a>>
+            <a href="#"><ion-icon class="correo" name="mail-outline"></ion-icon></a>
+            <a href="#"><ion-icon class="paypal" name="logo-paypal"></ion-icon></a>
+        </div>
+        <div class="foot"></div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
 
 </html>
